@@ -1,91 +1,91 @@
 body {
     margin: 0;
     padding: 0;
-    background: #1f1f1f;
-    color: #e0e0e0;
+    background: #12192b;
+    color: #d0d3d6;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
-  }
-  .container {
+}
+.container {
     width: 90%;
     max-width: 500px;
     text-align: center;
-  }
-  h1 {
+}
+h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #7289da;
-  }
-  .search-group {
+    color: #4a82c2;
+}
+.search-group {
     display: flex;
     margin-bottom: 1rem;
-  }
-  .search-group input {
+}
+.search-group input {
     flex: 1;
     padding: 12px 15px;
-    border: 2px solid #7289da;
+    border: 2px solid #4a82c2;
     border-radius: 5px 0 0 5px;
     font-size: 1rem;
-    background: transparent;
-    color: #e0e0e0;
+    background: #0e1626;
+    color: #d0d3d6;
     outline: none;
     transition: border-color 0.3s;
-  }
-  .search-group input:focus {
-    border-color: #99aab5;
-  }
-  .search-group button {
+}
+.search-group input:focus {
+    border-color: #6b9cd2;
+}
+.search-group button {
     padding: 12px 20px;
     border: none;
-    background: #7289da;
-    color: #1f1f1f;
+    background: #4a82c2;
+    color: #0e1626;
     font-size: 1rem;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     transition: background 0.3s;
-  }
-  .search-group button:hover {
-    background: #99aab5;
-  }
-  .results {
+}
+.search-group button:hover {
+    background: #6b9cd2;
+}
+.results {
     margin-top: 1rem;
     padding: 20px;
-    background: #2c2f33;
-    border: 1px solid #7289da;
+    background: #19253b;
+    border: 1px solid #4a82c2;
     border-radius: 5px;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s, transform 0.5s;
-  }
-  .results.show {
+}
+.results.show {
     opacity: 1;
     transform: translateY(0);
-  }
-  .result-item {
+}
+.result-item {
     margin-bottom: 0.5rem;
     text-align: left;
-  }
-  .profile-img {
+}
+.profile-img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 3px solid #7289da;
+    border: 3px solid #4a82c2;
     margin-bottom: 1rem;
     object-fit: cover;
-  }
-  .banner-img {
+}
+.banner-img {
     width: 100%;
     max-height: 150px;
     border-radius: 5px;
     margin-bottom: 1rem;
     object-fit: cover;
-  }
-  .footer {
+}
+.footer {
     margin-top: 2rem;
     font-size: 0.8rem;
-    color: #99aab5;
-  }
+    color: #6b9cd2;
+}
